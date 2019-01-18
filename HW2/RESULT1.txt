@@ -1,0 +1,48 @@
+This is the name of the script:  ./sourcecode/Q1_Census_Income.py
+Number of arguments:  3
+The arguments are:  ['./sourcecode/Q1_Census_Income.py', './dataset/adultTrain.data', './dataset/adultTest.data']
+
+*** Running NN Model ****
+
+Confusion Matrix of NN Training set : 
+[[24503   217]
+ [ 6802  1039]]
+
+Confusion Matrix of NN Test set : 
+[[12325   110]
+ [ 3347   499]]
+
+Accuracy of NN Training set : 0.7844
+
+Accuracy of NN Test set : 0.7877
+
+*** Running SVM Model ****
+
+*** This might take a while ***
+
+Confusion Matrix of SVM Training set : 
+[[24720     0]
+ [   42  7799]]
+
+Confusion Matrix of SVM Test set : 
+[[12427     8]
+ [ 3835    11]]
+
+Accuracy of SVM Train set : 0.9987
+
+Accuracy of SVM Test set : 0.7640
+
+*** Running KNN Model ****
+
+
+Confusion Matrix of KNN Training set : 
+[[24419   301]
+ [ 6065  1776]]
+
+Confusion Matrix of KNN Test set : 
+[[12277   158]
+ [ 3048   798]]
+
+Accuracy of KNN Train set : 0.8045
+
+Accuracy of KNN Test set : 0.8031

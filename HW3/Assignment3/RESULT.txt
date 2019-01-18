@@ -1,0 +1,214 @@
+
+
+---------------------------------------------------------------
+ 
+Anuran Calls: K-Means
+
+---------------------------------------------------------------
+
+Output for: python ./sourcecode/Clustering.py './dataset/Frogs_MFCCs.csv' ',' 'K-Means'
+
+*** Clustering used is K-Means ***
+
+TSS:3693.25809263
+
+K :1
+result : 1.0
+K :2
+result : 0.658485998819
+K :3
+result : 0.528543888056
+K :4
+result : 0.461029009601
+K :5
+result : 0.40152060781
+K :6
+result : 0.370740213253
+K :7
+result : 0.341844332649
+K :8
+result : 0.322371021807
+K :9
+result : 0.302126034993
+K :10
+result : 0.284577852629
+
+---------------------------------------------------------------
+ 
+Anuran Calls: H-Clustering
+
+---------------------------------------------------------------
+
+
+Output for: python ./sourcecode/Clustering.py './dataset/Frogs_MFCCs.csv' ',' 'H-Clustering'
+
+*** Clustering used is H-Clustering ***
+
+TSS:3693.25809263
+
+K :1
+result : 1.0
+K :2
+result : 0.662791138452
+K :3
+result : 0.55498123609
+K :4
+result : 0.4813037804
+K :5
+result : 0.426772011719
+K :6
+result : 0.388564574387
+K :7
+result : 0.362200332498
+K :8
+result : 0.338901133416
+K :9
+result : 0.316414224831
+K :10
+result : 0.30056643724
+
+---------------------------------------------------------------
+ 
+Anuran Calls: Gaussian Mixture Models
+
+---------------------------------------------------------------
+
+Output for: python ./sourcecode/Clustering.py './dataset/Frogs_MFCCs.csv' ',' 'GMM'
+
+*** Clustering used is GMM ***
+
+TSS:3693.25809263
+
+K :1
+result : 1.0
+K :2
+result : 0.65969631166
+K :3
+result : 0.630702956196
+K :4
+result : 0.498042379903
+K :5
+result : 0.448243557183
+K :6
+result : 0.381922745758
+K :7
+result : 0.368649919042
+K :8
+result : 0.340915613848
+K :9
+result : 0.320843915673
+K :10
+result : 0.31166503306
+
+
+
+
+
+
+
+
+---------------------------------------------------------------
+ 
+Facebook Post Metrics: K-Means
+
+---------------------------------------------------------------
+
+
+Output for: python ./sourcecode/Clustering.py './dataset/dataset_Facebook.csv' ';' 'K-Means'
+
+*** Clustering used is K-Means ***
+
+TSS:5.15020123606e+12
+
+K :1
+result : 1.0
+K :2
+result : 0.421829573407
+K :3
+result : 0.205591600218
+K :4
+result : 0.13893094346
+K :5
+result : 0.0992941180543
+K :6
+result : 0.0723333087493
+K :7
+result : 0.0540186601014
+K :8
+result : 0.0409992136444
+K :9
+result : 0.0342576590014
+K :10
+result : 0.0287563726923
+
+
+
+---------------------------------------------------------------
+ 
+Facebook Post Metrics: H-Clustering
+
+---------------------------------------------------------------
+
+
+Output for: python ./sourcecode/Clustering.py './dataset/dataset_Facebook.csv' ';' 'H-Clustering'
+
+*** Clustering used is H-Clustering ***
+
+TSS:5.15020123606e+12
+
+K :1
+result : 1.0
+K :2
+result : 0.421829573407
+K :3
+result : 0.209889792099
+K :4
+result : 0.140685464402
+K :5
+result : 0.101011024135
+K :6
+result : 0.072978631099
+K :7
+result : 0.0549521207957
+K :8
+result : 0.0458911721268
+K :9
+result : 0.0369764429496
+K :10
+result : 0.0302367854904
+
+
+
+---------------------------------------------------------------
+ 
+Facebook Post Metrics: Gaussian Mixture Models
+
+---------------------------------------------------------------
+
+
+Output for: python ./sourcecode/Clustering.py './dataset/dataset_Facebook.csv' ';' 'GMM'
+
+*** Clustering used is GMM ***
+
+TSS:5.15020123606e+12
+
+K :1
+result : 1.0
+K :2
+result : 0.421829573407
+K :3
+result : 0.2393938357
+K :4
+result : 0.210337686028
+K :5
+result : 0.106586199972
+K :6
+result : 0.0925683535789
+K :7
+result : 0.0576608566568
+K :8
+result : 0.0616554300564
+K :9
+result : 0.0404309660922
+K :10
+result : 0.0379041456238

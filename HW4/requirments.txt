@@ -1,0 +1,1 @@
+python Q2.py './Assingment4/dataset/Sales_Transactions_Dataset_Weekly.csv' ',' 'K-Means'

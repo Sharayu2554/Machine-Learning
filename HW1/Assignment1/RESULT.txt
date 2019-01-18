@@ -1,0 +1,32 @@
+Q1.  textTrain.txt
+Used Naive Bayes Algorthim for predicting the sentiment
+Accuracy of Naive Bayes on Training set : 0.9050
+
+
+Q2. carTrainData.csv 
+
+Accuracy of gini index using decision tree classifier is  83.33%
+Train Accuracy ::  0.833333333333
+Confusion matrix
+[[284   0  23   0]
+[ 57   0   0   0]
+[107   0 906   0]
+[ 51   0   0   0]]
+
+
+Accuracy of information gain using decision tree classifier is  78.43%
+Train Accuracy ::  0.78431372549
+Confusion matrix
+[[131   0 176   0]
+[ 24   0  33   0]
+[ 24   0 989   0]
+[ 51   0   0   0]]
+
+
+Accuracy of random forest is  99.859%
+Train Accuracy ::  0.998599439776
+Confusion matrix
+[[ 306    1    0    0]
+[   1   56    0    0]
+[   0    0 1013    0]
+[   0    0    0   51]]

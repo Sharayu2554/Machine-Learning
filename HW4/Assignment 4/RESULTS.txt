@@ -1,0 +1,182 @@
+-------------------------------------------
+*********** Question 1 Output ***********
+-------------------------------------------
+
+Classifier selected :  DecisionTreeEntropy
+Confusion Matrix : 
+[[ 0  0  1  0  0  0]
+ [ 0  0 13  0  1  0]
+ [ 0  2 84  2  2  0]
+ [ 0  0  7  1  2  0]
+ [ 0  0  2  0  0  0]
+ [ 0  0  1  0  0  0]]
+Accuracy :  0.7203389830508474
+
+-------------------------------------------
+
+Classifier selected :  DecisionTreeGini
+Confusion Matrix : 
+[[ 0 17  3  0  0]
+ [ 0 75  7  0  0]
+ [ 0  6  2  0  0]
+ [ 0  6  0  0  0]
+ [ 0  2  0  0  0]]
+Accuracy :  0.652542372881356
+
+
+-------------------------------------------
+
+Classifier selected :  GradientBoosting
+Confusion Matrix : 
+[[ 0  0  1  0  0  0]
+ [ 0  0 14  1  0  0]
+ [ 0  0 81  3  2  0]
+ [ 0  0 11  0  0  0]
+ [ 0  0  3  0  0  0]
+ [ 0  0  2  0  0  0]]
+Accuracy :  0.6864406779661016
+
+
+-------------------------------------------
+
+Classifier selected :  KNN
+Confusion Matrix : 
+[[ 0  0  1  0  0]
+ [ 0  0 10  0  0]
+ [ 0  0 94  0  0]
+ [ 0  0 12  0  0]
+ [ 0  0  1  0  0]]
+Accuracy :  0.7966101694915254
+
+
+-------------------------------------------
+
+Classifier selected :  NeuralNetwork
+Confusion Matrix : 
+[[ 0  8  0  0  0]
+ [ 0 89  0  0  0]
+ [ 0 14  0  0  0]
+ [ 0  6  0  0  0]
+ [ 0  1  0  0  0]]
+Accuracy :  0.7542372881355932
+
+
+-------------------------------------------
+
+Classifier selected :  RandomForest
+Confusion Matrix : 
+[[ 0  0  1  0  0  0  0]
+ [ 0  1 12  0  0  0  0]
+ [ 0  6 81  2  0  0  0]
+ [ 0  1  8  1  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  1  0  0  0  0]
+ [ 0  0  1  0  0  0  0]]
+Accuracy :  0.7033898305084746
+
+
+
+
+-------------------------------------------
+*********** Question 2 Output ***********
+-------------------------------------------
+
+Output for: python Q2.py ../dataset/Sales_Transactions_Dataset_Weekly.csv , GMM
+
+*** Clustering used is GMM ***
+
+TSS:50764101.08405063
+
+K :1
+result : 1.0
+K :2
+result : 0.35954474602507824
+K :3
+result : 0.24427020209534261
+K :4
+result : 0.18455598879285817
+K :5
+result : 0.29142025181705433
+K :6
+result : 0.1620692001821221
+K :7
+result : 0.11528258071146368
+K :8
+result : 0.11751796176984526
+K :9
+result : 0.0893100930292293
+K :10
+result : 0.09473209054606192
+
+
+-------------------------------------------
+
+Output for: python Q2.py ../dataset/Sales_Transactions_Dataset_Weekly.csv , H-Clustering
+
+*** Clustering used is H-Clustering ***
+
+TSS:50764101.08405063
+
+K :1
+result : 1.0
+K :2
+result : 0.4089042523827549
+K :3
+result : 0.22252484215564092
+K :4
+result : 0.17636665910602195
+K :5
+result : 0.13902487919323164
+K :6
+result : 0.10912425497833715
+K :7
+result : 0.08949331975445668
+K :8
+result : 0.07267409353287026
+K :9
+result : 0.059692008043728366
+K :10
+result : 0.05235625123769058
+
+
+-------------------------------------------
+
+Output for: python Q2.py ../dataset/Sales_Transactions_Dataset_Weekly.csv , K-Means
+
+*** Clustering used is K-Means ***
+
+TSS:50764101.08405063
+
+K :1
+result : 1.0
+K :2
+result : 0.34215003950583106
+K :3
+result : 0.21697670057511437
+K :4
+result : 0.16167749680164337
+K :5
+result : 0.12426406527043343
+K :6
+result : 0.1008312110547078
+K :7
+result : 0.08393790512088391
+K :8
+result : 0.0688106294740677
+K :9
+result : 0.057367011491263074
+K :10
+result : 0.04993193154362067
+
+
+
+-------------------------------------------
+*********** Question 3 Output ***********
+-------------------------------------------
+
+Number of arguments:  2
+The arguments are:  ['Q3.py', '../dataset/Concrete_Data.xls']
+
+KNN
+Means square error using Kmeans with 5 neighbors :  76.02034965229878
+Means square error for 5 fold :  84.14995084010664
